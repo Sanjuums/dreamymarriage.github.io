@@ -1,0 +1,35 @@
+:root{
+   --bg: #F2DAB7;
+   --text: #4E5A72;
+   --cardColor: #BF5670;
+   --cardShadow: #6D4156;
+}
+@font-face {
+    font-family: CurveFont;
+    src: url(./font/ImperialScript-Regular.ttf);
+}
+@font-face {
+    font-family: BoldFont;
+    src: url(./font/Righteous-Regular.ttf);
+}
+@font-face {
+    font-family: HeadingFont;
+    src: url(./font/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: ContentFont;
+    src: url(./font/Bitter-VariableFont_wght.ttf);
+}
+
+.one{
+    font-family: CurveFont;
+}
+.two{
+    font-family: BoldFont;
+}
+.three{
+    font-family: HeadingFont;
+}
+.four{
+    font-family: ContentFont;
+}
