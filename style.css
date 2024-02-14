@@ -3,6 +3,9 @@
    --text: #4E5A72;
    --cardColor: #BF5670;
    --cardShadow: #6D4156;
+
+   background-color: var(--bg);
+   box-sizing: border-box;
 }
 @font-face {
     font-family: CurveFont;
@@ -21,15 +24,36 @@
     src: url(./font/Bitter-VariableFont_wght.ttf);
 }
 
-.one{
-    font-family: CurveFont;
-}
-.two{
-    font-family: BoldFont;
-}
-.three{
-    font-family: HeadingFont;
-}
-.four{
+body,body>div{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+
     font-family: ContentFont;
+}
+nav{
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    padding: 5px 20px;
+    background-color: var(--cardColor);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    height: 10vh;
+}
+
+#links{
+    margin-right: 1rem;
+}
+#links a{
+    text-decoration: none;
+    color: var(--bg);
+    margin-right: 0.6rem;
+}
+#links a:hover{
+    color: var(--cardShadow);
 }
