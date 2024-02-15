@@ -34,26 +34,54 @@ body,body>div{
 nav{
     position: relative;
     height: 10vh;
-    width: 100%;
-    padding: 5px 20px;
+    width: 100vw;
     background-color: var(--cardColor);
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-img{
-    height: 10vh;
+.logo img{
+    height: 8vh;
+    margin-left: 1rem;
 }
 
-#links{
-    margin-right: 1rem;
-}
 #links a{
     text-decoration: none;
     color: var(--bg);
-    margin-right: 0.6rem;
+    margin-right: 1rem;
 }
 #links a:hover{
-    color: var(--cardShadow);
+}
+.hoverable{
+    position: relative;
+}
+.hoverable::before ,.hoverable::after{
+    content: "";
+    position: absolute;
+    width: 120%;
+    left: -10%;
+    height: 100%;
+    background-color: var(--bg);
+    mask-image: url(./img/border.png);
+    mask-size: cover;
+    mask-position: center;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.hoverable::before{
+    bottom: 100%;
+}
+.hoverable::after{
+    top: 100%;
+    transform: rotate(180deg);
+}
+.hoverable:hover::before ,.hoverable:hover::after{
+    opacity: 1;
+}
+.photo-holder img{
+    position: relative;
+    filter: brightness(0.8) sepia(10%);
 }
