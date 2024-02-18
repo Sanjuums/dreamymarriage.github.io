@@ -1,0 +1,33 @@
+#why{
+    position: relative;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#why h1{
+    font-family: HeadingFont;
+    flex: 1;
+    font-size: 6vw;
+    height: 100%;
+    margin: auto;
+}
+#why .temp{
+    width: 50px;
+}
+#why .temp::after{
+    content: '';
+    position: absolute;
+
+    width: 5px;
+    height: 100%;
+    background-color: black;
+}
+#why p{
+    font-family: ContentFont;
+    flex: 1;
+    max-width: 30ch;
+    font-size: 4vw;
+    letter-spacing: 0.2vw;
+    line-height: 6vw;
+}
