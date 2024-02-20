@@ -31,28 +31,26 @@ body{
     margin: 0;
     font-family: ContentFont;
     overflow-x: hidden;
+    margin: auto;
 
 }
 nav{
-    position: sticky;
     z-index: 100;
-    top: 0;
-    height: 10vh;
 
-    background-color: var(--cardColor);
+    border-bottom: 5px solid var(--cardColor);
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo img{
-    height: 9vh;
+    width:  9vh;
     padding-left: 1rem;
 }
 
 #links a{
     text-decoration: none;
-    color: var(--bg);
+    color: var(--cardColor);
     margin-right: 1rem;
 }
 #links a:hover{
@@ -66,7 +64,7 @@ nav{
     width: 120%;
     left: -10%;
     height: 100%;
-    background-color: var(--bg);
+    background-color: var(--cardColor);
     mask-image: url(/img/border.png);
     mask-size: cover;
     mask-position: center;

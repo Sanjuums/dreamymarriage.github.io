@@ -1,6 +1,5 @@
 #plans h1{
     font-family: HeadingFont;
-    font-size: 4vw;
     width: fit-content;
     margin: 0 auto;
 }
@@ -12,7 +11,7 @@
 #plans .plan .img-c{
     position: relative;
     aspect-ratio: 16/7;
-    width: 90vw;
+    width: 1000px;
 }
 #plans .plan h2{
     position: absolute;

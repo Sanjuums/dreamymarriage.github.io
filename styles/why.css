@@ -1,6 +1,5 @@
 #why{
     position: relative;
-    width: 90vw;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -9,7 +8,6 @@
 #why h1{
     font-family: HeadingFont;
     flex: 1;
-    font-size: 6vw;
     height: 100%;
     margin: auto;
 }
@@ -28,7 +26,4 @@
     font-family: ContentFont;
     flex: 1;
     max-width: 30ch;
-    font-size: 4vw;
-    letter-spacing: 0.2vw;
-    line-height: 6vw;
 }
