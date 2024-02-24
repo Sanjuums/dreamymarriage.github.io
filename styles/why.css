@@ -2,28 +2,35 @@
     position: relative;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
     margin-bottom: 50px;
+    min-height: 300px;
+    width: var(--img-size-pc);
 }
-#why h1{
-    font-family: HeadingFont;
+#why>*{
     flex: 1;
-    height: 100%;
-    margin: auto;
+}
+#why .heading-container{
+    font-family: HeadingFont;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #why .temp{
-    width: 50px;
-}
-#why .temp::after{
-    content: '';
     position: absolute;
-
-    width: 5px;
     height: 100%;
-    background-color: black;
+    left: 50%;
+    transform: translate(-50%);
+    width: 5px;
+    background-color: var(--text);
 }
-#why p{
+#why .text-container{
     font-family: ContentFont;
-    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#why .text-container p{
     max-width: 30ch;
+    color: var(--text);
 }

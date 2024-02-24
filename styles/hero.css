@@ -1,7 +1,9 @@
 #hero{
     position: relative;
+    padding: 10px;
     margin-bottom: 50px;
 }
+
 #hero h1{
     font-family: CurveFont;
     position: absolute;
@@ -16,29 +18,40 @@
 
     color: white;
 }
-.photos{
+.main-photo{
     position: relative;
-}
-.photo-holder{
     margin: auto;
     aspect-ratio: 16/9;
-    width: 900px;
-    padding-top: 10px;
-    filter: brightness(0.6);
+    width: 1200px;
+    background-color: rgb(54, 58, 13);
 }
-.photo-holder img{
+.main-photo>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top;
+    filter: brightness(0.6);
 }
-.stack {
+nav{
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%) rotate(3deg);
-    z-index: -1;
-    filter: brightness(0.4);
+    z-index: 100;
+    right: 0;
+    left: 0;
+    top: 20px;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width:  9vh;
+    padding-left: 1rem;
+}
+#links a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1.5rem;
 }
 #hero button{
     position: absolute;
