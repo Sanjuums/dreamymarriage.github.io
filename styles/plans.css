@@ -1,28 +1,41 @@
-#plans h1{
-    font-family: HeadingFont;
-    width: fit-content;
+#plans{    
+    width: var(--img-size-pc);
     margin: 0 auto;
 }
+#plans h1{
+    position: sticky;
+    top: 10px;
+
+    font-family: HeadingFont;
+    width: fit-content;
+    margin: 40px auto;
+    color: var(--text);
+}
 #plans .plan{
-    position: relative;
-    background-color: azure;
+    position: sticky;
+    top: 100px;
 
 }
 #plans .plan .img-c{
     position: relative;
-    aspect-ratio: 16/7;
-    width: 1000px;
+    width: var(--img-size-pc);
+    aspect-ratio: 16/9;
+    transform: rotate(var(--rotation));
+    border-radius: 20px;
+    overflow: hidden;
 }
 #plans .plan h2{
     position: absolute;
     z-index: 10;
     color: white;
-    background-color: aqua;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
 }
 #plans .plan .img-c img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(0.7);
+    filter: brightness(0.6);
 }
