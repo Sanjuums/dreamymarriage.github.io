@@ -52,6 +52,7 @@ nav{
     text-decoration: none;
     color: white;
     margin-right: 1.5rem;
+    scroll-behavior: smooth;
 }
 #hero button{
     position: absolute;

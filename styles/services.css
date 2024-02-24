@@ -1,0 +1,19 @@
+#services{}
+#services h1{
+    font-family: HeadingFont;
+    color: var(--text);
+    width: fit-content;
+    margin: 80px auto;
+}
+#services>div{
+    display: flex;
+    justify-content: space-around;
+    width: var(--img-size-pc);
+    margin: 0 auto;
+}
+#services>div>div{
+    width: 200px;
+    height: 250px;
+    background-color: var(--cardColor);
+
+}

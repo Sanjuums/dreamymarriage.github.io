@@ -64,3 +64,9 @@ body{
 .hoverable:hover::before ,.hoverable:hover::after{
     opacity: 1;
 }
+
+footer{
+    height: 300px;
+    background-color: var(--cardColor);
+    margin-top: 30px;
+}
