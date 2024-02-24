@@ -1,0 +1,66 @@
+#contact-us{
+    display: flex;
+    width: var(--img-size-pc);
+    padding-left: 30px;
+    margin: auto;
+
+    box-shadow: 4px 4px 10px var(--cardColor);
+}
+#contact-us>*{
+    flex:2;
+}
+#contact-us .left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+#contact-us .left h1{
+    font-family: HeadingFont;
+    color: var(--text);
+}
+#contact-us form>*{
+    display: block;
+    font-family: ContentFont;
+    color: var(--text);
+}
+#contact-us input[type="text"],
+#contact-us input[type="number"],
+#contact-us textarea{
+    background-color: var(--cardColor);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+#contact-us textarea{
+    resize: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#contact-us input[type="submit"]{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: var(--text);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+
+    width: 150px;
+
+}
+#contact-us .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
