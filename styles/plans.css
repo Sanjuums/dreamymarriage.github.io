@@ -18,7 +18,8 @@
 }
 #plans .plan .img-c{
     position: relative;
-    width: var(--img-size-pc);
+    margin: auto;
+    width: 1000px;
     aspect-ratio: 16/9;
     transform: rotate(var(--rotation));
     border-radius: 20px;
