@@ -27,11 +27,14 @@
 }
 #plans .plan h2{
     position: absolute;
+    font-size: 5rem;
+    font-weight: normal;
+    font-family: CurveFont;
     z-index: 10;
     color: white;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -100%);
 
 }
 #plans .plan .img-c img{
