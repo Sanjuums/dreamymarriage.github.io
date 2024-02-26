@@ -10,19 +10,19 @@
 }
 @font-face {
     font-family: CurveFont;
-    src: url(./font/ImperialScript-Regular.ttf);
+    src: url(../font/ImperialScript-Regular.ttf);
 }
 @font-face {
     font-family: BoldFont;
-    src: url(./font/Righteous-Regular.ttf);
+    src: url(../font/Righteous-Regular.ttf);
 }
 @font-face {
     font-family: HeadingFont;
-    src: url(./font/DMSerifDisplay-Regular.ttf);
+    src: url(../font/DMSerifDisplay-Regular.ttf);
 }
 @font-face {
     font-family: ContentFont;
-    src: url(./font/Bitter-VariableFont_wght.ttf);
+    src: url(../font/Bitter-VariableFont_wght.ttf);
 }
 *{
     box-sizing: border-box;
