@@ -25,6 +25,7 @@
 }
 #contact-us input[type="text"],
 #contact-us input[type="number"],
+#contact-us input[type="email"],
 #contact-us textarea{
     background-color: var(--cardColor);
     border: none;
@@ -55,9 +56,18 @@ input[type=number] {
     color: white;
     padding: 5px;
     border-radius: 10px;
+    
+    color: var(--bg);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    transition: box-shadow 0.5s;
 
     width: 150px;
 
+}
+#contact-us input[type="submit"]:hover{
+    box-shadow: 0px 0px 20px var(--cardColor);
 }
 #contact-us .right img{
     width: 100%;

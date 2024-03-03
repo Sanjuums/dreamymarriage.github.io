@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+#main{
+    width: 1200px;
+    margin: auto;
+}
+h1{
+    font-family: HeadingFont;
+}
+#table{
+    border: 3px solid var(--text);
+}
+#labels, .entry{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+#labels>*{
+    flex: 1;
+
+    font-family: BoldFont;
+    color: var(--cardColor);
+}
+.entry>*{
+    flex: 1;
+    color: var(--text);
+}
+.entry:nth-child(odd){
+    background-color: #ffedd5;
+}

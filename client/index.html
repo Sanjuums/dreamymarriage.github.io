@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dreamy Wedding</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/hero.css">
     <link rel="stylesheet" href="./styles/why.css">
@@ -46,7 +46,7 @@
             <h1>
                 <div>WHY</div>
                 <div>DREAMY</div>
-                <div>MARRIAGE?</div>
+                <div>WEDDING?</div>
             </h1>
         </div>
         <div class="temp"></div>   
@@ -343,21 +343,21 @@
     <div id="contact-us">
         <div class="left">
             <h1>Contact Us</h1>
-            <form action="#">
+            <form>
                 <label for="Name">Name</label>
-                <input type="text" id="Name">
+                <input type="text" id="Name" name="name" required>
 
                 
-                <label for="Number">Phone</label>
-                <input type="number" id="Number">
+                <label for="Phone">Phone</label>
+                <input type="number" id="Phone" name="phone">
 
                 <label for="Email">Email</label>
-                <input type="text" id="Email">
+                <input type="email" id="Email" name="email">
 
                 
                 <label for="Message">Optional Message</label>
-                <textarea name="" id="Message" cols="30" rows="5"></textarea>
-                <input type="submit" value="Send a Mail">
+                <textarea name="" id="Message" cols="30" rows="5" name="msg"></textarea>
+                <input type="submit" value="Send a Mail" id="submit">
             </form>
         </div>
         <div class="right">
